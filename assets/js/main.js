@@ -156,7 +156,7 @@
 					x;
 
 				// Assign image.
-					$image.css('background-image', 'url(' + $img.attr('src') + ')');
+					//$image.css('background-image', 'url(' + $img.attr('src') + ')');
 
 				// Set background position.
 					if (x = $img.data('position'))
