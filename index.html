@@ -1,59 +1,74 @@
 <!DOCTYPE HTML>
-<html lang=”pt-BR”>
-	<head>
-		<title>stencilcam</title>
-		<meta charset="utf-8" />
-		<meta name="description" content="Stencilcam é uma ferramenta web mobile que permite que ao usuário cria esboços e desenhos 
+<html lang=”pt-br”>
+
+<head>
+	<title>stencilcam</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="Stencilcam é uma ferramenta web mobile que permite que ao usuário cria esboços e desenhos 
 		de maneira simples e prática através da camera do seu dispositivo. CLIQUE e conheça!" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+	<meta name="theme-color" content="#312450" />	
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="manifest" href="./manifest.json" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<body class="is-preload">
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>Stencilcam</h1>
-							<p>Crie desenhos utilizando a câmera do seu dispositivo!</p>
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Escolha uma imagem</a></li>
-							</ul>
-						</div>
-					</section>
+	<!-- Wrapper -->
+	<div id="wrapper">
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" style="background-image: url('/images/celcam2.jpg'); " class="image"><img src="images/celcam2.jpg" alt="Imagem de pessoa segurando celular para criar desenhos usando a câmera do dispositivo" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<p>Uma maneira fácil de exercitar sua criatividade</p>
-								</div>
-							</div>
-						</section>
-					</section>
+		<!-- Intro -->
+		<section id="intro" class="wrapper style1 fullscreen fade-up">
+			<div class="inner">
+				<h1>Stencilcam</h1>
+				<p>Crie desenhos utilizando a câmera do seu dispositivo!</p>
+				<ul class="actions">
+					<li><a href="#one" class="button scrolly">Escolha uma imagem</a></li>
+				</ul>
 			</div>
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>Design: Hesdras &blk14;&blk12;&blk34;&blk14;&blk12;&blk34;&blk14;&blk12;&blk34;&blk14;&blk12;&blk34;&blk14;&blk12;&blk34;</li>
-					</ul>
+		</section>
+
+		<!-- One -->
+		<section id="one" class="wrapper style2 spotlights">
+			<section>
+				<a href="#" style="background-image: url('images/celcam2.jpg'); " class="image"><img
+						src="images/celcam2.jpg"
+						alt="Imagem de pessoa segurando celular para criar desenhos usando a câmera do dispositivo"
+						data-position="center center" /></a>
+				<div class="content">
+					<div class="inner">
+						<p>Uma maneira fácil de exercitar sua criatividade</p>
+					</div>
 				</div>
-			</footer>
+			</section>
+		</section>
+	</div>
+	<!-- Footer -->
+	<footer id="footer" class="wrapper style1-alt">
+		<div class="inner">
+			<ul class="menu">
+				<li>Design: Hesdras
+					&blk14;&blk12;&blk34;&blk14;&blk12;&blk34;&blk14;&blk12;&blk34;&blk14;&blk12;&blk34;&blk14;&blk12;&blk34;
+				</li>
+			</ul>
+		</div>
+	</footer>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script> if (typeof navigator.serviceWorker !== 'undefined') {
+			navigator.serviceWorker.register('sw.js')
+		} </script>
 
-	</body>
+</body>
+
 </html>
